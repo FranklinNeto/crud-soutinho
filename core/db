@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "content": "Primeira Todo",
+      "date": "2023-11-07T23:23:18.444Z",
+      "done": false
+    },
+    {
+      "content": "Segunda Todo",
+      "date": "2023-11-07T23:23:18.445Z",
+      "done": false
+    }
+  ]
+}

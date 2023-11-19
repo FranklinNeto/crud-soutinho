@@ -1,18 +1,20 @@
-"use client"
+"use client";
 
+import React from "react";
 
-import { GlobalStyles } from "../src/theme/GlobalStyles";
+import { GlobalStyles } from "@ui/theme/GlobalStyles";
 
 export default function Page() {
+  const bg =
+    "https://images.unsplash.com/photo-1616400619175-5beda3a17896?ixlib=rb-4.0.3&q=80&w=2874&auto=format&fit=crop&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8";
+  const bg2 = "imagem_crud.avif"; //usando imagem salva na pasta public
   return (
     <main>
-      <GlobalStyles />
+      <GlobalStyles themeName="devsoutinho" />
       <header
-        style={
-          {
-            //  backgroundImage: `url('${bg}')`,
-          }
-        }
+        style={{
+          backgroundImage: `url('${bg2}')`, //colocar uma imagem de sua preferência usando link dela salva na pasta public (bg2) ou não (bg)
+        }}
       >
         <div className="typewriter">
           <h1>O que fazer hoje?</h1>

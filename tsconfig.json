@@ -109,6 +109,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "baseUrl" : ".",
+    "paths" : {
+      "@ui/*": [
+        "src/ui/*"
+      ]
+
+    },
     "plugins": [
       {
         "name": "next"

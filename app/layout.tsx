@@ -1,14 +1,16 @@
-import StyledJsxRegistry from './registry'
+import React from "react";
+
+import StyledJsxRegistry from "./registry";
 export default function RootLayout({
-    children,
-  }: {
-    children: React.ReactNode
-  }) {
-    return (
-      <html lang="pt-br">
-        <body> 
-          <StyledJsxRegistry>{children}</StyledJsxRegistry>
-          </body>
-      </html>
-    )
-  }
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="pt-br">
+      <body>
+        <StyledJsxRegistry>{children}</StyledJsxRegistry>
+      </body>
+    </html>
+  );
+}
